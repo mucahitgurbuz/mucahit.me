@@ -116,7 +116,7 @@ a:active,a:hover {
 h1 {
 	font-size:2em;
 	margin:0.67em 0;
-	color:#353535;
+	color:#a1a9b0;
 }
 h2 {
 	font-size:1.5em;
@@ -457,11 +457,11 @@ table {
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
-	background-color: #FBFBFB;
+	background-color: #020202;
 }
 .hero h1 {
-	font-size: 120px;
-	letter-spacing: -8px;
+	font-size: 100px;
+	letter-spacing: -3px;
 	margin: 0;
 	font-weight: 600;
 	line-height: 120px;
@@ -470,6 +470,7 @@ table {
 .hero h1 span {
 	color:#a1a9b0;
 	/* display:inline-block; */
+	letter-spacing: 5px;
 }
 .hero h3 {
 	font-size: 20px;
@@ -1116,9 +1117,10 @@ ul.slides li {
 	}
 
 	.hero h1 {
-		font-size: 100px;
+		font-size: 62px;
 		line-height: 80px;
 		margin-top: 65px;
+		letter-spacing: 1px;
 }
 }
 /* 480px (WVGA - Low End Windows Phone) */

@@ -1,5 +1,5 @@
-# JohnDoe
-A Responsive Free One Page Portfolio Website template
+# Mucahit Gurbuz
+A personal website design with lean html-css-js.
 
 
 

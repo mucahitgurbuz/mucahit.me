@@ -148,6 +148,7 @@ a:hover {
 /* ==========================================================================Typography========================================================================== */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
 h1 {
 	font-size: 2em;
 	margin: 0.67em 0;
@@ -619,7 +620,8 @@ table {
 .hero h1 span {
 	color: #a1a9b0;
 	/* display:inline-block; */
-	letter-spacing: 5px;
+	letter-spacing: 0px;
+	padding: 0 0 0 6px;
 }
 
 .hero h3 {
@@ -647,6 +649,7 @@ table {
 		-moz-transform: translateY(0);
 		transform: translateY(0);
 	}
+
 	to {
 		-webkit-transform: translateY(-20px);
 		-moz-transform: translateY(-20px);
@@ -655,12 +658,14 @@ table {
 }
 
 @-moz-keyframes arrowbounce {
+
 	/* Firefox */
 	from {
 		-webkit-transform: translateY(0);
 		-moz-transform: translateY(0);
 		transform: translateY(0);
 	}
+
 	to {
 		-webkit-transform: translateY(-20px);
 		-moz-transform: translateY(-20px);
@@ -669,12 +674,14 @@ table {
 }
 
 @-webkit-keyframes arrowbounce {
+
 	/* Safari and Chrome */
 	from {
 		-webkit-transform: translateY(0);
 		-moz-transform: translateY(0);
 		transform: translateY(0);
 	}
+
 	to {
 		-webkit-transform: translateY(-20px);
 		-moz-transform: translateY(-20px);
@@ -683,12 +690,14 @@ table {
 }
 
 @-o-keyframes arrowbounce {
+
 	/* Opera */
 	from {
 		-webkit-transform: translateY(0);
 		-moz-transform: translateY(0);
 		transform: translateY(0);
 	}
+
 	to {
 		-webkit-transform: translateY(-20px);
 		-moz-transform: translateY(-20px);
@@ -1428,6 +1437,7 @@ ul.slides li {
 	.scrollto {
 		padding: 95px 0px 0px 0px;
 	}
+
 	.hero h1 {
 		font-size: 62px;
 		line-height: 80px;
@@ -1443,12 +1453,15 @@ ul.slides li {
 		background: #f3f5f8;
 		height: 640px;
 	}
+
 	.iphone {
 		display: none;
 	}
+
 	.fluid-white {
 		display: none;
 	}
+
 	.wp2,
 	.wp4,
 	.wp5,
@@ -1463,9 +1476,11 @@ ul.slides li {
 	.wp3 {
 		background-position: 50px 0;
 	}
+
 	.swag {
 		background-attachment: scroll;
 	}
+
 	.subscribe {
 		background-attachment: scroll;
 	}
@@ -1485,13 +1500,16 @@ ul.slides li {
 	.iphone {
 		display: none;
 	}
+
 	.fluid-white {
 		display: none;
 	}
+
 	.wrapper {
 		background: #f3f5f8;
 		height: 540px;
 	}
+
 	.wp2,
 	.wp4,
 	.wp5,
@@ -1515,29 +1533,36 @@ ul.slides li {
 		padding-top: 10px;
 		text-align: center;
 	}
+
 	.hero h3 {
 		letter-spacing: 10px;
 	}
+
 	.hero {
 		padding-bottom: 0;
 	}
+
 	.subscribe input[type=text] {
 		width: 50%;
 		margin-bottom: 30px;
 	}
+
 	.btn-send {
 		float: none;
 		margin-bottom: 80px;
 	}
+
 	.effects .img {
 		margin-bottom: 15px;
 	}
+
 	.show-menu .icon-list a {
 		display: block;
 		width: 100%;
 		float: left;
 		margin-bottom: 10px;
 	}
+
 	.show-menu .menu-wrap {
 		height: 100%;
 	}
@@ -1547,6 +1572,7 @@ ul.slides li {
 	.hero {
 		padding: 0px;
 	}
+
 	.subscribe {
 		padding-bottom: 40px;
 	}
